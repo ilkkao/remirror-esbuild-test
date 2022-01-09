@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  height: 3000px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin: 0 0.2rem;
+}
+
+/* ProseMirror  */
+.remirror-editor {
+  padding: 10px;
+  border: 1px solid #ededed;
+}
+
+.mention {
+  background: #7963d266;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.remirror-theme {
+  /* Provide sufficient space to see the popup */
+  --rmr-space-6: 400px;
+}
+.suggestions {
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.suggestion {
+  padding: 2px 8px;
+}
+.highlighted {
+  background: #7963d233;
+}
+.hovered {
+  background: #7963d222;
+}
